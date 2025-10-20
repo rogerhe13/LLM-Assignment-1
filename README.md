@@ -32,18 +32,12 @@ This project implements manual and automated prompt engineering techniques on th
 
 ### Local Setup
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd <project-directory>
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set your OpenAI API key:
+2. Set your OpenAI API key:
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
 ```
@@ -153,19 +147,4 @@ See `requirements.txt` for full list:
 - API calls are made for each question, so monitor your OpenAI usage
 - Initial run will download the GSM8K dataset (~100MB)
 
-## Troubleshooting
 
-**API Error - Invalid parameter:**
-- Ensure API key is correctly set
-- Check that you're using the latest OpenAI SDK: `pip install --upgrade openai`
-
-**Out of memory:**
-- Reduce sample size in step1.py if needed
-- Process is designed to handle 300 questions efficiently
-
-**Missing results file:**
-- If a results file is missing, delete it and rerun the step to regenerate
-
-## Author
-
-Generated for Generative AI Assignment 1
