@@ -1,5 +1,8 @@
 # Generative AI Assignment 1: Prompt Engineering
 
+**Student Name:** Weihao He
+
+
 This project implements manual and automated prompt engineering techniques on the GSM8K dataset to improve LLM performance on math word problems.
 
 ## Project Structure
