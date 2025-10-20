@@ -107,8 +107,95 @@ To run all steps sequentially:
 ```bash
 python step1.py && python step2.py && python step3.py
 ```
+## Sample Output
 
-## Dataset
+### Step 1: Base Prompt
+
+**Prompt Template:**
+```
+{question}
+
+Output the final answer at the end with the prefix ####. For example: #### ANSWER
+```
+
+Base prompt accuracy: **87%** (261/300)
+
+---
+
+### Step 2: Manual Prompt Engineering
+
+#### 2.1 Improved Prompt
+
+**Prompt Template:**
+```
+You are an expert math problem solver. Solve the following problem step by step.
+
+Problem: {question}
+
+Please work through this problem carefully:
+1. Identify what information is given
+2. Determine what needs to be found
+3. Plan your solution approach
+4. Execute each step clearly
+5. Verify your answer
+
+IMPORTANT: You MUST output the final numeric answer at the end with the prefix ####.
+Format: #### [NUMBER]
+Example: If the answer is 42, write: #### 42
+```
+
+Accuracy: **89.67%** (269/300)
+
+#### 2.2 Chain of Thought Prompt
+
+**Prompt Template:**
+```
+Solve this math problem step by step using chain of thought reasoning.
+
+{question}
+
+Think through each step:
+- What do I know?
+- What do I need to find?
+- What operations should I perform?
+- What is my final answer?
+
+IMPORTANT: You MUST output the final numeric answer at the end with the prefix ####.
+Format: #### [NUMBER]
+Example: If the answer is 42, write: #### 42
+```
+
+Accuracy: **90%** (270/300)
+
+---
+
+### Step 3: Automated Prompt Engineering
+
+#### Variant 1
+**Prompt Template:**
+```
+[variant 1 prompt here]
+```
+Train Accuracy: 90.33%
+
+#### Variant 2 (Best)
+**Prompt Template:**
+```
+[variant 2 prompt here]
+```
+Train Accuracy: 90%
+Test Accuracy: 87%
+
+#### Variant 3
+**Prompt Template:**
+```
+[variant 3 prompt here]
+```
+Train Accuracy: 87。67%
+
+---
+
+
 
 The project uses **GSM8K (Grade School Math 8K)**, a dataset of 8.5K high-quality grade school math word problems requiring multi-step reasoning.
 
@@ -126,28 +213,5 @@ Data is automatically downloaded and cached during the first run.
 - **Scoring method**: Exact match on final numeric answer
 - Answer format: Final answer extracted from `####` prefix
 
-### Expected Performance
-
-Results vary based on LLM performance, but typically:
-- Base prompt: ~40-50% accuracy
-- Manual optimization: ~50-65% accuracy
-- Automated optimization: ~55-70% accuracy
-
-## Resuming Interrupted Runs
-
-If the script is interrupted during execution, rerunning the same step will automatically resume from where it left off. Results are saved after each question to prevent data loss.
-
-## Dependencies
-
-See `requirements.txt` for full list:
-- `openai` - OpenAI API client
-- `datasets` - Hugging Face datasets library
-
-## Notes
-
-- Uses `gpt-5-mini` model for cost efficiency
-- Each step saves results incrementally to local JSON files
-- API calls are made for each question, so monitor your OpenAI usage
-- Initial run will download the GSM8K dataset (~100MB)
 
 
