@@ -1,0 +1,543 @@
+{
+  "1": {
+    "idx": 1,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 54,
+    "error": "Error code: 400 - {'error': {'message': 'Could not finish the message because max_tokens or model output limit was reached. Please try again with higher max_tokens.', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+  },
+  "2": {
+    "idx": 2,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 42
+  },
+  "3": {
+    "idx": 3,
+    "is_correct": true,
+    "predicted": 5,
+    "ground_truth": 5
+  },
+  "4": {
+    "idx": 4,
+    "is_correct": true,
+    "predicted": 23,
+    "ground_truth": 23
+  },
+  "5": {
+    "idx": 5,
+    "is_correct": true,
+    "predicted": 36,
+    "ground_truth": 36
+  },
+  "6": {
+    "idx": 6,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 7425
+  },
+  "7": {
+    "idx": 7,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 90
+  },
+  "8": {
+    "idx": 8,
+    "is_correct": true,
+    "predicted": 33,
+    "ground_truth": 33
+  },
+  "9": {
+    "idx": 9,
+    "is_correct": true,
+    "predicted": 4,
+    "ground_truth": 4
+  },
+  "10": {
+    "idx": 10,
+    "is_correct": true,
+    "predicted": 1260,
+    "ground_truth": 1260
+  },
+  "11": {
+    "idx": 11,
+    "is_correct": true,
+    "predicted": 18,
+    "ground_truth": 18
+  },
+  "12": {
+    "idx": 12,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 114
+  },
+  "13": {
+    "idx": 13,
+    "is_correct": true,
+    "predicted": 88,
+    "ground_truth": 88
+  },
+  "14": {
+    "idx": 14,
+    "is_correct": true,
+    "predicted": 7,
+    "ground_truth": 7
+  },
+  "15": {
+    "idx": 15,
+    "is_correct": true,
+    "predicted": 10,
+    "ground_truth": 10
+  },
+  "16": {
+    "idx": 16,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 72000
+  },
+  "17": {
+    "idx": 17,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 30
+  },
+  "18": {
+    "idx": 18,
+    "is_correct": true,
+    "predicted": 4248,
+    "ground_truth": 4248
+  },
+  "19": {
+    "idx": 19,
+    "is_correct": true,
+    "predicted": 250,
+    "ground_truth": 250
+  },
+  "20": {
+    "idx": 20,
+    "is_correct": true,
+    "predicted": 600,
+    "ground_truth": 600
+  },
+  "21": {
+    "idx": 21,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 5
+  },
+  "22": {
+    "idx": 22,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 9
+  },
+  "23": {
+    "idx": 23,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 19
+  },
+  "24": {
+    "idx": 24,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 76
+  },
+  "25": {
+    "idx": 25,
+    "is_correct": false,
+    "predicted": 1600,
+    "ground_truth": 1
+  },
+  "26": {
+    "idx": 26,
+    "is_correct": true,
+    "predicted": 72,
+    "ground_truth": 72
+  },
+  "27": {
+    "idx": 27,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 50
+  },
+  "28": {
+    "idx": 28,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 18
+  },
+  "29": {
+    "idx": 29,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 36
+  },
+  "30": {
+    "idx": 30,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 9
+  },
+  "31": {
+    "idx": 31,
+    "is_correct": false,
+    "predicted": 6600,
+    "ground_truth": 6
+  },
+  "32": {
+    "idx": 32,
+    "is_correct": false,
+    "predicted": 3000,
+    "ground_truth": 4800
+  },
+  "33": {
+    "idx": 33,
+    "is_correct": true,
+    "predicted": 225,
+    "ground_truth": 225
+  },
+  "34": {
+    "idx": 34,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 650
+  },
+  "35": {
+    "idx": 35,
+    "is_correct": true,
+    "predicted": 5,
+    "ground_truth": 5
+  },
+  "36": {
+    "idx": 36,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 20
+  },
+  "37": {
+    "idx": 37,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 7
+  },
+  "38": {
+    "idx": 38,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 115
+  },
+  "39": {
+    "idx": 39,
+    "is_correct": true,
+    "predicted": 3,
+    "ground_truth": 3
+  },
+  "40": {
+    "idx": 40,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 30
+  },
+  "41": {
+    "idx": 41,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 63
+  },
+  "42": {
+    "idx": 42,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 13
+  },
+  "43": {
+    "idx": 43,
+    "is_correct": true,
+    "predicted": 20,
+    "ground_truth": 20
+  },
+  "44": {
+    "idx": 44,
+    "is_correct": true,
+    "predicted": 50,
+    "ground_truth": 50
+  },
+  "45": {
+    "idx": 45,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 40
+  },
+  "46": {
+    "idx": 46,
+    "is_correct": true,
+    "predicted": 10,
+    "ground_truth": 10
+  },
+  "47": {
+    "idx": 47,
+    "is_correct": false,
+    "predicted": 10000,
+    "ground_truth": 10
+  },
+  "48": {
+    "idx": 48,
+    "is_correct": true,
+    "predicted": 250,
+    "ground_truth": 250
+  },
+  "49": {
+    "idx": 49,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 55
+  },
+  "50": {
+    "idx": 50,
+    "is_correct": true,
+    "predicted": 1360,
+    "ground_truth": 1360
+  },
+  "51": {
+    "idx": 51,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 20
+  },
+  "52": {
+    "idx": 52,
+    "is_correct": true,
+    "predicted": 3,
+    "ground_truth": 3
+  },
+  "53": {
+    "idx": 53,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 8
+  },
+  "54": {
+    "idx": 54,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 450
+  },
+  "55": {
+    "idx": 55,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 110
+  },
+  "56": {
+    "idx": 56,
+    "is_correct": true,
+    "predicted": 27,
+    "ground_truth": 27
+  },
+  "57": {
+    "idx": 57,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 600
+  },
+  "58": {
+    "idx": 58,
+    "is_correct": true,
+    "predicted": 58,
+    "ground_truth": 58
+  },
+  "59": {
+    "idx": 59,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 6
+  },
+  "60": {
+    "idx": 60,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 50
+  },
+  "61": {
+    "idx": 61,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 6
+  },
+  "62": {
+    "idx": 62,
+    "is_correct": true,
+    "predicted": 3,
+    "ground_truth": 3
+  },
+  "63": {
+    "idx": 63,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 110
+  },
+  "64": {
+    "idx": 64,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 260
+  },
+  "65": {
+    "idx": 65,
+    "is_correct": true,
+    "predicted": 45,
+    "ground_truth": 45
+  },
+  "66": {
+    "idx": 66,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 12
+  },
+  "67": {
+    "idx": 67,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 11
+  },
+  "68": {
+    "idx": 68,
+    "is_correct": true,
+    "predicted": 500,
+    "ground_truth": 500
+  },
+  "69": {
+    "idx": 69,
+    "is_correct": true,
+    "predicted": 2,
+    "ground_truth": 2
+  },
+  "70": {
+    "idx": 70,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 14
+  },
+  "71": {
+    "idx": 71,
+    "is_correct": true,
+    "predicted": 144,
+    "ground_truth": 144
+  },
+  "72": {
+    "idx": 72,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 2
+  },
+  "73": {
+    "idx": 73,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 12
+  },
+  "74": {
+    "idx": 74,
+    "is_correct": true,
+    "predicted": 16,
+    "ground_truth": 16
+  },
+  "75": {
+    "idx": 75,
+    "is_correct": true,
+    "predicted": 6,
+    "ground_truth": 6
+  },
+  "76": {
+    "idx": 76,
+    "is_correct": true,
+    "predicted": 10,
+    "ground_truth": 10
+  },
+  "77": {
+    "idx": 77,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 4
+  },
+  "78": {
+    "idx": 78,
+    "is_correct": true,
+    "predicted": 20,
+    "ground_truth": 20
+  },
+  "79": {
+    "idx": 79,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 17
+  },
+  "80": {
+    "idx": 80,
+    "is_correct": true,
+    "predicted": 1400,
+    "ground_truth": 1400
+  },
+  "81": {
+    "idx": 81,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 20
+  },
+  "82": {
+    "idx": 82,
+    "is_correct": true,
+    "predicted": 135,
+    "ground_truth": 135
+  },
+  "83": {
+    "idx": 83,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 700
+  },
+  "84": {
+    "idx": 84,
+    "is_correct": true,
+    "predicted": 7,
+    "ground_truth": 7
+  },
+  "85": {
+    "idx": 85,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 50
+  },
+  "86": {
+    "idx": 86,
+    "is_correct": true,
+    "predicted": 112,
+    "ground_truth": 112
+  },
+  "87": {
+    "idx": 87,
+    "is_correct": true,
+    "predicted": 147,
+    "ground_truth": 147
+  },
+  "88": {
+    "idx": 88,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 25600000
+  },
+  "89": {
+    "idx": 89,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 21
+  },
+  "90": {
+    "idx": 90,
+    "is_correct": false,
+    "predicted": null,
+    "ground_truth": 1640
+  }
+}
