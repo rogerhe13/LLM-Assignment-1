@@ -5,7 +5,7 @@ import os
 from datasets import load_dataset
 from openai import OpenAI
 
-API_KEY = "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"
+API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def download_gsm8k_data(cache_dir="./gsm8k_data", sample_size=300):
     print("Downloading GSM8K dataset...")

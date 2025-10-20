@@ -5,7 +5,7 @@ import os
 from datasets import load_dataset
 from openai import OpenAI
 
-API_KEY = ""
+API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def extract_final_answer(text):
     match = re.search(r'#### (\d+)', text)
