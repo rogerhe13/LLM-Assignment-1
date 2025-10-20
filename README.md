@@ -191,7 +191,7 @@ Test Accuracy: 87%
 ```
 [variant 3 prompt here]
 ```
-Train Accuracy: 87.67%
+Train Accuracy: 86.67%
 
 ---
 
