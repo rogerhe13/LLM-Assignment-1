@@ -103,7 +103,6 @@ Output files:
 - `opro_train_iter2.json` - Variant 2 results
 - `opro_train_iter3.json` - Variant 3 results
 - `opro_test_results.json` - Test set evaluation
-- `opro_summary.json` - Final summary with best variant
 
 ## Running All Steps
 
