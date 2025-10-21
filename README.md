@@ -1,4 +1,4 @@
-# Generative AI Assignment 1: Prompt Engineering
+# LLM Assignment 1: Prompt Engineering
 
 **Student Name:** Weihao He
 
@@ -61,7 +61,7 @@ docker run -e OPENAI_API_KEY="your-api-key-here" prompt-engineering:latest
 - **Accuracy**: Percentage of questions answered correctly
 - **Scoring method**: Exact match on final numeric answer
 - Answer format: Final answer extracted from `####` prefix
-- 
+  
 ## Running the Project
 
 ### Step 1: Baseline Evaluation
