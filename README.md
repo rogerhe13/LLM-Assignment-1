@@ -56,7 +56,12 @@ docker build -t prompt-engineering:latest .
 ```bash
 docker run -e OPENAI_API_KEY="your-api-key-here" prompt-engineering:latest
 ```
+### Evaluation Metrics
 
+- **Accuracy**: Percentage of questions answered correctly
+- **Scoring method**: Exact match on final numeric answer
+- Answer format: Final answer extracted from `####` prefix
+- 
 ## Running the Project
 
 ### Step 1: Baseline Evaluation
@@ -107,7 +112,7 @@ To run all steps sequentially:
 ```bash
 python step1.py && python step2.py && python step3.py
 ```
-## Sample Output
+## Sample Output Results
 
 ### Step 1: Base Prompt
 
@@ -232,13 +237,7 @@ The project uses **GSM8K (Grade School Math 8K)**, a dataset of 8.5K high-qualit
 
 Data is automatically downloaded and cached during the first run.
 
-## Results
 
-### Evaluation Metrics
-
-- **Accuracy**: Percentage of questions answered correctly
-- **Scoring method**: Exact match on final numeric answer
-- Answer format: Final answer extracted from `####` prefix
 
 
 
