@@ -197,7 +197,8 @@ Please:
 3. Show all calculation steps
 4. Provide the final answer
 
-IMPORTANT: Write the final numeric answer with ####. Format: #### [NUMBER]"""```
+IMPORTANT: Write the final numeric answer with ####. Format: #### [NUMBER]"""
+```
 Train Accuracy: 90%
 Test Accuracy: 87%
 
@@ -215,7 +216,8 @@ Think through each step:
 - Work through the calculation step by step
 - State the final answer
 
-IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]""" ```
+IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]"""
+```
 Train Accuracy: 86.67%
 
 ---
