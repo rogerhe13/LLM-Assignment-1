@@ -187,7 +187,8 @@ Work through the problem carefully and show your reasoning.
 
 IMPORTANT: Output the final numeric answer with ####. Format: #### [NUMBER]"""
 ```
-Train Accuracy: 90.33%
+Train Accuracy: 90%
+Test Accuracy : 85.56%
 
 #### Variant 2 (Best)
 **Prompt Template:**
@@ -204,7 +205,7 @@ Please:
 
 IMPORTANT: Write the final numeric answer with ####. Format: #### [NUMBER]"""
 ```
-Train Accuracy: 90%
+Train Accuracy: 91.11%
 Test Accuracy: 87%
 
 #### Variant 3
@@ -224,6 +225,7 @@ Think through each step:
 IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]"""
 ```
 Train Accuracy: 86.67%
+Test Accuracy: 78.89%
 
 ---
 
