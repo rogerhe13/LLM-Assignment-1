@@ -174,22 +174,48 @@ Accuracy: **90%** (270/300)
 #### Variant 1
 **Prompt Template:**
 ```
-[variant 1 prompt here]
+"""Solve this math problem step by step.
+
+{question}
+
+Work through the problem carefully and show your reasoning.
+
+IMPORTANT: Output the final numeric answer with ####. Format: #### [NUMBER]"""
 ```
 Train Accuracy: 90.33%
 
 #### Variant 2 (Best)
 **Prompt Template:**
 ```
-[variant 2 prompt here]
-```
+"""You are a math tutor. Help solve this problem step by step.
+
+{question}
+
+Please:
+1. Identify the key information
+2. Determine what to find
+3. Show all calculation steps
+4. Provide the final answer
+
+IMPORTANT: Write the final numeric answer with ####. Format: #### [NUMBER]"""```
 Train Accuracy: 90%
 Test Accuracy: 87%
 
 #### Variant 3
 **Prompt Template:**
 ```
-[variant 3 prompt here]
+"""Solve this math word problem using chain of thought reasoning.
+
+{question}
+
+Think through each step:
+- What information is given?
+- What needs to be calculated?
+- What operations are needed?
+- Work through the calculation step by step
+- State the final answer
+
+IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]"""
 ```
 Train Accuracy: 86.67%
 
