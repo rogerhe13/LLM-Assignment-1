@@ -215,8 +215,7 @@ Think through each step:
 - Work through the calculation step by step
 - State the final answer
 
-IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]"""
-```
+IMPORTANT: End with the final numeric answer. Format: #### [NUMBER]""" ```
 Train Accuracy: 86.67%
 
 ---
